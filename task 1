@@ -1,0 +1,30 @@
+#include <iostream>
+
+using namespace std;
+void volleyball (int* team1,int* team2){
+int win1 = 0;
+int win2 = 0;
+while (win1 < 3 && win2 <3) {
+ int score1 = 0;
+ int score2 = 0;
+ while ((score1 < 25 && score2 < 25) or !(score1-score2 >= 2 or score2 - score1 >= 2)) {
+     continue;
+ }
+}     
+ 
+}
+
+
+    
+
+
+int main()
+{
+  int team1 [6] = { 7,8,9,10,11,12};
+  int team2 [6] = { 1,2,3,4,5,6};
+  
+  
+
+    return 0;
+}
+
